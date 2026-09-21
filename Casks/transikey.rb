@@ -5,8 +5,8 @@
 # digitalis-io/homebrew-tap as Casks/transikey.rb — do not edit those two
 # fields by hand in the tap.
 cask "transikey" do
-  version "0.1.0-rc5"
-  sha256 "fdaea54b6e305cef62a2006502a5cf7217cd8c94309d5cfc55fae2c59dbc627c"
+  version "0.1.0-rc6"
+  sha256 "37165456e04a33bcb4644db5090bb040b776e473ee03526172e83a605f15dde9"
 
   url "https://github.com/digitalis-io/transikey/releases/download/v#{version}/transikey-v#{version}-macos-universal.zip"
   name "Transikey"
