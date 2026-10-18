@@ -21,6 +21,12 @@ One-liner, without tapping first:
 brew install --cask digitalis-io/tap/transikey
 ```
 
+CLI tools are formulae built from source:
+
+```bash
+brew install digitalis-io/tap/ansai
+```
+
 Transikey is not signed or notarised, so Gatekeeper blocks the first launch.
 Approve it once:
 
@@ -33,6 +39,12 @@ xattr -dr com.apple.quarantine /Applications/transikey.app
 | Cask | Description | Homepage |
 |------|-------------|----------|
 | `transikey` | Desktop client for OpenBao and HashiCorp Vault | <https://github.com/digitalis-io/transikey> |
+
+## Available formulae
+
+| Formula | Description | Homepage |
+|---------|-------------|----------|
+| `ansai` | Plain-language request to multi-server Ansible deployment | <https://github.com/digitalis-io/ansai> |
 
 ## Usage examples
 
@@ -90,6 +102,9 @@ rendered by the upstream project's release workflow from the published GitHub
 release and pushed here automatically — do not edit them by hand in this repo.
 Everything else in a cask is edited in the upstream repository, which is the
 source of truth.
+
+`Formula/ansai.rb` is maintained in this repo. Only its `url` and `sha256` are
+rewritten by the ansai release workflow on each stable release.
 
 To test a cask locally before it ships:
 
